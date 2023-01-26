@@ -1,0 +1,23 @@
+package Variable1;
+
+public class Swap1 
+{  
+	
+	public static void main(String[] args)
+	{   
+		int a=10,b=20;
+		int temp;
+		System.out.println("numbers before swapping");
+		System.out.println("1st number is"+a);
+		System.out.println("2nd number is"+b);
+		
+		temp=a;
+		a=b;
+		b=temp;
+		
+		System.out.println("numbers after swapping");
+		System.out.println("1st number is"+a);
+		System.out.println("2nd number is"+b);
+	}
+
+}
